@@ -4,7 +4,7 @@
 -1, -7, 567, 89, 223-> 3 */
 
 Console.Clear();
-Console.Write($"Введите произвольное количество чисел и нажмите Enter: ");
+Console.Write($"Введите произвольное количество чисел через пробел и нажмите Enter: ");
 int[] str = (Console.ReadLine() ?? "0").Split().Select(int.Parse).ToArray();
 Console.Write($"Поместим числа в массив: ");
 
